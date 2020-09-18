@@ -68,16 +68,16 @@ footer {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
-  background: rgba(0,0,0,1)!important;
+  background: #d5d5d5;
 }
 hr.light {
-  border-top:1px solid #d5d5d5;
+  border-top:1px solid #1B1464;
   width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
 hr.light-100 {
-  border-top:1px solid #d5d5d5;
+  border-top:1px solid #1B1464;
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
@@ -86,7 +86,12 @@ hr.light-100 {
   font-size: 2rem;
   padding: 1.5rem;
 }
-
+footer p {
+  color: #1B1464;
+}
+footer a {
+  color: #1B1464;
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
