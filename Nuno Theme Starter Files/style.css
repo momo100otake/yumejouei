@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.jumbotron {
+  margin-bottom: 0rem!important;
+}
+/* ====================================================================================================== */
+/*-- Navigation --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0,0.6)!important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar-brand  img{
+  height: 4rem;
+}
+.navbar-nav li {
+  padding-right: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #c0b6f6;
+}
+
+/* ====================================================================================================== */
+/*-- 歌詞カード  --*/
+.landing img {
+  width: 100%;
+}
+
+
+
+/* ====================================================================================================== */
+/*-- footer --*/
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #CF2E92;
+}
+.fa-facebook {
+  color: #3C5A99
+}
+
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-facebook:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  background: rgba(0,0,0,1)!important;
+}
+hr.light {
+  border-top:1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+hr.light-100 {
+  border-top:1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.social a {
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
