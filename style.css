@@ -16,7 +16,7 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(0,0,0,0.6)!important;
+  background-color: rgba(27,20,100,0.9)!important;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
