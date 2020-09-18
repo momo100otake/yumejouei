@@ -23,7 +23,7 @@ body {
   z-index: 1;
 }
 .navbar-brand  img{
-  height: 4rem;
+  height: 3rem;
 }
 .navbar-nav li {
   padding-right: .8rem;
@@ -47,20 +47,20 @@ body {
 
 /* ====================================================================================================== */
 /*-- footer --*/
-.fa-twitter {
+.fa-twitter:hover {
   color: #00aced;
 }
 
-.fa-instagram {
+.fa-instagram:hover{
   color: #CF2E92;
 }
-.fa-facebook {
+.fa-facebook:hover {
   color: #3C5A99
 }
 
-.fa-twitter:hover,
-.fa-instagram:hover,
-.fa-facebook:hover {
+.fa-twitter,
+.fa-instagram,
+.fa-facebook {
   color: #d5d5d5;
 }
 
@@ -68,30 +68,18 @@ footer {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
-  background: #d5d5d5;
-}
-hr.light {
-  border-top:1px solid #1B1464;
-  width: 75%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
-}
-hr.light-100 {
-  border-top:1px solid #1B1464;
-  width: 100%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
+  background: #B7702D;
 }
 .social a {
   font-size: 2rem;
-  padding: 1.5rem;
+  padding: 1rem;
 }
-footer p {
+.copyright p {
   color: #1B1464;
+  font-size: .2rem;
 }
-footer a {
-  color: #1B1464;
-}
+
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
